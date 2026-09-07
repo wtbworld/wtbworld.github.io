@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Woubakal.exe — books, dogs, running, music, rabbit holes and assorted nonsense.">
+<title>Woubakal.exe</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="noise"></div>
+
+<header class="site-header">
+  <a class="brand" href="#top">WTB<span>/</span>WORLD</a>
+  <nav><a href="#now">Now</a><a href="#rabbit-holes">Rabbit holes</a><a href="#quotes">Quotes</a></nav>
+  <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">◐</button>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="status"><span class="dot"></span> ONLINE, PROBABLY</div>
+  <h1>Woubakal<span>.exe</span></h1>
+  <p class="hero-copy">A small corner of the internet for books, dogs, running, music, questionable observations and whatever rabbit hole happened to win this week.</p>
+  <a class="scroll-cue" href="#now">ENTER THE CHAOS <span>↓</span></a>
+  <div class="hero-stamp"><span>PERSONAL INTERNET<br>CORNER</span><strong>2026</strong></div>
+</section>
+
+<section id="now" class="section">
+  <div class="section-label">01 / CURRENTLY</div>
+  <div class="card-grid">
+    <article class="card"><div class="card-icon">📚</div><div class="card-meta">READING ARC</div><h2>Somehow LitRPG became my vibe.</h2><p>Dungeon Crawler Carl is part of the evidence. I did not see this plot twist coming.</p><div class="tags"><span>LitRPG</span><span>Fiction</span><span>DDC</span></div></article>
+    <article class="card"><div class="card-icon">↗</div><div class="card-meta">GYM ARC</div><h2>Cardio stays. Muscle gets built.</h2><p>Running, rowing, spinning and lifting. The current mission: full body, with extra attention to the back.</p><div class="tags"><span>Running</span><span>Rowing</span><span>Back</span></div></article>
+    <article class="card"><div class="card-icon">♫</div><div class="card-meta">SOUNDTRACK</div><h2>Amapiano. Beats. Repeat.</h2><p>Some songs are not listened to. They are temporarily assigned control of your entire personality.</p><div class="tags"><span>Amapiano</span><span>Beats</span></div></article>
+    <article class="card"><div class="card-icon">🐾</div><div class="card-meta">IMPORTANT PEOPLE</div><h2>The dogs outrank everyone.</h2><p>Obviously. This is not a democracy.</p><div class="tags"><span>Dogs</span><span>Chaos</span><span>Good boys</span></div></article>
+  </div>
+</section>
+
+<section id="rabbit-holes" class="section rabbit-section">
+  <div class="section-label">02 / RABBIT HOLES</div>
+  <div class="rabbit-intro"><h2>Things I somehow ended up thinking about.</h2><p>This list is not curated. That is the point.</p></div>
+  <div class="rabbit-list">
+    <button class="rabbit-item" data-text="Christopher Nolan. Tenet. Time inversion. Somehow this became a research project."><span>01</span><strong>Christopher Nolan</strong><em>+</em></button>
+    <button class="rabbit-item" data-text="Semitic languages, Hebrew, vocabulary and the dangerous question: “Wait, what does that actually mean?”"><span>02</span><strong>Language rabbit holes</strong><em>+</em></button>
+    <button class="rabbit-item" data-text="Is that beat actually similar to another song, or have I listened to it too many times?"><span>03</span><strong>Beats that sound familiar</strong><em>+</em></button>
+    <button class="rabbit-item" data-text="Being the only person in the gym on Sunday morning: flex, warning sign, or both?"><span>04</span><strong>Unnecessary gym philosophy</strong><em>+</em></button>
+    <button class="rabbit-item" data-text="Words and phrases that sound normal until you stare at them for five minutes."><span>05</span><strong>Why words are weird</strong><em>+</em></button>
+  </div>
+  <div class="rabbit-popover" id="rabbitPopover"><button id="closePopover" aria-label="Close">×</button><p id="popoverText"></p></div>
+</section>
+
+<section id="quotes" class="section">
+  <div class="section-label">03 / ARCHIVE</div>
+  <div class="quotes-heading"><h2>Things that have been said.</h2><span>probably out of context</span></div>
+  <div class="quote-wall">
+    <article><span>001</span><p>“Damn right I carry my own load.”</p></article>
+    <article><span>002</span><p>“For some unknown reason I am tequila.”</p></article>
+    <article><span>003</span><p>“Who would have thought that LitRPG was going to be my vibe.”</p></article>
+    <article><span>004</span><p>“Not every single thing has to be posted.”</p></article>
+  </div>
+</section>
+
+<section class="final-note">
+  <div class="big-symbol">✳</div><h2>Currently in my head:</h2><p>probably too many tabs.</p>
+  <button id="surpriseButton" class="surprise">PRESS FOR A COMPLETELY UNNECESSARY MESSAGE</button>
+  <p id="surpriseText" class="surprise-text"></p>
+</section>
+</main>
+
+<footer><span>WTB / WORLD</span><span>Made for no particular reason.</span><span id="clock"></span></footer>
+<script src="script.js"></script>
+</body>
+</html>
