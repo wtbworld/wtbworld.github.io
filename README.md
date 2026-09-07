@@ -1,4 +1,4 @@
-# Woubakal.exe
+# wtb.exe
 
 A playful personal website for **wtbworld.github.io**.
 
